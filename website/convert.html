@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GenderNeutral</title>
+</head>
+<body>
+    <div class="hero min-h-screen min-w-screen" style="background-image: url(/images/black.jpeg);">
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero-content text-center text-neutral-content w-screen">
+          <div class="w-screen">
+            <!--<button class="btn btn-primary" onclick="convert.html">Get Started</button>-->
+            <!--<input id="og_text" type="text" placeholder="Type here" class="input input-ghost w-full max-w-xs content-center" />-->
+            <!--<textarea id="og_text" class="textarea textarea-ghost textarea-lg w-3/5" placeholder="Bio"></textarea>-->
+            <textarea id="og_text" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write your thoughts here..."></textarea>
+            <br><br>
+            <button id="convert_btn" class="btn btn-primary">Convert</button>
+            <br><br>
+            <!--<input id="changed_text" type="text" placeholder="Type here" class="input input-ghost w-full max-w-xs content-center" />-->
+            <!--<textarea id="changed_text" class="textarea textarea-ghost textarea-lg" placeholder="Bio"></textarea>-->
+            <textarea id="changed_text" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write your thoughts here..."></textarea>
+          </div>
+        </div>
+    </div>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js"></script>
+</body>
+</html>
